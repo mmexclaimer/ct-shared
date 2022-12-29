@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Azure;
+namespace CTAzure;
 
 use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
 use MicrosoftAzure\Storage\Queue\Models\CreateQueueOptions;
