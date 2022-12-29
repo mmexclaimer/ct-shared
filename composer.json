@@ -10,6 +10,7 @@
     }
   ],
   "require": {
+    "php": ">=7.4",
     "microsoft/azure-storage-queue": "dev-master"
   },
   "autoload": {
