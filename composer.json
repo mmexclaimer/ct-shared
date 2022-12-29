@@ -1,0 +1,20 @@
+{
+  "name": "exclaimer/ct-shared",
+  "description": "Package to use on Customer Thermometer projects",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mauro Marinho",
+      "email": "mauro.marinho@exclaimer.com"
+    }
+  ],
+  "require": {
+    "microsoft/azure-storage-queue": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "CTAzure\\": "src/Azure"
+    }
+  }
+}
